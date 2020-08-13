@@ -14,7 +14,7 @@ def main(parse):
             # read the frame from the camera and send it to the server
             star_time = time.time()
             ret, frame = cam.read()
-            frame = imutils.resize(frame, width=720)
+            #frame = imutils.resize(frame, width=720)
 
             res = recognizer.recognize_face(frame)
             print(res)
@@ -29,6 +29,7 @@ def main(parse):
 
     elif parse.input == "image":
             frame = cv2.imread(parse.path_im)
+            frame = imutils.resize(frame, width=720)
             res = recognizer.recognize_face(frame)
             print(res)
             frame = f_main.bounding_box(frame,res["faces"],res["names"])

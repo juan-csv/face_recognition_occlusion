@@ -10,7 +10,7 @@ You can also add new users manually by adding a photo in the images folder.
 
 if you don't want to run it with the webcam use
 
-<pre><code>python Main.py --input image --path_im images/juan_mask.jpg</code></pre>
+<pre><code>python main.py --input image --path_im test_image.jpeg</code></pre>
 
 ![alt text](https://github.com/juan-csv/face_recognition_occlusion/blob/master/results/test.jpg)
 
