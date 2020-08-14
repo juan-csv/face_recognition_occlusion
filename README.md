@@ -14,6 +14,9 @@ if you don't want to run it with the webcam use
 
 ![alt text](https://github.com/juan-csv/face_recognition_occlusion/blob/master/results/test.jpg)
 
+# Add new faces to the database (facial recognition)
+You can add new users to the faces database simply by adding the person's photo in format .jpg in the **images** folder, for the registry to work correctly, only the person of interest should appear in the photo.
+
 # References
 
 - **Face recognition:** https://github.com/ageitgey/face_recognition
